@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Erva Daninha</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="logo">Erva Daninha</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+
+                <li><a href="quem-somos.html">Quem Somos</a></li>
+
+                <li><a href="#onde-estamos">Onde Estamos</a></li>
+
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="painel">
+            <h2>Bem-vindo ao site da Erva Daninha</h2>
+            <div class="info">
+                <p>Aqui você descobre tudo sobre a erva daninha!</p>
+
+                <p>"Erva daninha" é o termo usado em português para se referir a plantas indesejadas que crescem em meio
+                    a
+                    culturas agrícolas, jardins, ou gramados, competindo com as plantas cultivadas por nutrientes, luz,
+                    e
+                    espaço. Algumas características comuns das ervas daninhas incluem:</p>
+
+                <ol>
+                    <li>Crescimento Rápido: Muitas ervas daninhas crescem rapidamente e se espalham facilmente, o que
+                        lhes
+                        permite dominar as áreas onde aparecem.</li>
+
+                    <li>Alta Capacidade de Reprodução: Elas frequentemente produzem grandes quantidades de sementes, o
+                        que
+                        facilita sua propagação.</li>
+
+                    <li>Adaptabilidade: As ervas daninhas podem sobreviver em uma ampla variedade de condições
+                        ambientais,
+                        tornando-as difíceis de erradicar.</li>
+
+                    <li>Resistência a Métodos de Controle: Algumas ervas daninhas desenvolvem resistência a herbicidas,
+                        complicando ainda mais seu controle.</li>
+                </ol>
+
+                <h2>Importância do Controle de Ervas Daninhas</h2>
+                <p>O controle eficaz de ervas daninhas é essencial para:</p>
+
+                <ol>
+                    <li>Aumento da Produtividade Agrícola: Reduzindo a competição por recursos, as plantas cultivadas
+                        podem
+                        crescer melhor e produzir mais.</li>
+
+                    <li>Manutenção da Saúde dos Jardins e Gramados: Evitando que as ervas daninhas dominem e prejudiquem
+                        a
+                        estética e a saúde das plantas desejadas.</li>
+
+                    <li>Prevenção da Propagação de Pragas e Doenças: Muitas ervas daninhas podem servir como hospedeiros
+                        para pragas e doenças que afetam as plantas cultivadas.</li>
+                </ol>
+            </div>
+
+            <div class="image">
+                <picture>
+                    <source srcset="./images/erva-daninha-pequena.jpg" media="(max-width: 600px)">
+
+                    <img src="./images/erva-daninha.jpg" alt="Erva daninha">
+                </picture>
+            </div>
+        </section>
+
+        <br>
+        <hr><br>
+
+        <h3>Aprenda a controlar as ervas daninhas e salvar o seu jardim!</h3>
+        <div>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/snRGuo0pC1E"
+                title="Controle de ervas daninhas" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <br>
+        <hr><br>
+
+        <section class="formulario">
+            <h3>Cadastre-se</h3>
+            <p>É fácil e rápido!</p>
+
+            <form action="" method="get">
+                <input type="text" name="nome" id="nome" placeholder="Nome">
+
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+
+                <br>
+
+                <input type="text" name="email" id="email" placeholder="Email">
+
+                <input type="password" name="senha" id="senha" placeholder="Senha">
+
+                <br><br>
+
+                <label>Data de nascimento 🐣</label><br>
+                <select name="dia" id="dia">
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                    <option value="05">05</option>
+                </select>
+                <select name="mes" id="mes">
+                    <option value="jan">jan</option>
+                    <option value="fev">fev</option>
+                    <option value="mai">mai</option>
+                    <option value="abr">abr</option>
+                    <option value="mai">mai</option>
+                </select>
+                <select name="ano" id="ano">
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                </select>
+
+                <br><br>
+
+                <label for="genero">Genêro</label><br>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genero" id="masculino" checked>
+
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="genero" id="feminino">
+
+                <label for="personalizado">Personalizado</label>
+                <input type="radio" name="genero" id="personalizado"><br><br>
+
+                <input type="submit" value="Cadastrar-se">
+            </form>
+        </section>
+
+        <br>
+    </main>
+    <footer>
+        &copy; 2024 Erva Daninha. Todos os direitos reservados
+    </footer>
+
+</body>
+
+</html>
