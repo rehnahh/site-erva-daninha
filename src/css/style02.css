@@ -2,19 +2,10 @@ html {
     font-family: poppins;
 }
 
-:root {
-    --padding-padrao: 10px;
-    --margin-padrao:10px;
-    --marker-cor: black;
-    --text-decoration-none: none;
-    --imagem-after: url(images/icone-de-genero.png);
-    --input-border: outset;
-    --text-color: white;
-}
 
 body {
     background-color: rgb(253, 255, 196);
-    background-image: url(images/campo-de-ervas.jpg);
+    background-image: url(../images/campo-de-ervas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 20% top;
@@ -96,7 +87,7 @@ h2 {
 }
 
 h1::after {
-    content: url(images/icone-natureza-pequena.png);
+    content: url(../images/icone-natureza-pequena.png);
 }
 
 footer {

@@ -1,0 +1,9 @@
+:root {
+    --padding-padrao: 10px;
+    --margin-padrao:10px;
+    --marker-cor: black;
+    --text-decoration-none: none;
+    --imagem-after: url(../images/icone-de-genero.png);
+    --input-border: outset;
+    --text-color: white;
+}

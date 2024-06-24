@@ -4,23 +4,13 @@ html {
 
 body {
     background-color: rgb(253, 255, 196);
-    background-image: url(images/campo-de-ervas.jpg);
+    background-image: url(../images/campo-de-ervas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 20% top;
     padding-top: 130px;
 }
 
-
-:root {
-    --padding-padrao: 10px;
-    --margin-padrao:10px;
-    --marker-cor: blue;
-    --text-decoration-none: none;
-    --imagem-after: url(images/icone-de-genero.png);
-    --input-border: outset;
-    --text-color: white;
-}
 
 .cabecalho {
     background-color: rgb(88, 255, 97);
@@ -95,7 +85,7 @@ a {
 
 
 h1::after {
-    content: url(images/icone-natureza-pequena.png);
+    content: url(../images/icone-natureza-pequena.png);
 }
 
 .formulario {
@@ -139,6 +129,7 @@ label[for="genero"]::after {
     content: var(--imagem-after);
 }
 
+
 footer {
     color: rgb(101, 101, 101);
     text-align: center;
@@ -170,6 +161,10 @@ footer {
 
     .cabecalho nav li {
         display: block;
+    }
+
+    form {
+        width: 100%;
     }
 
     iframe {
