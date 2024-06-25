@@ -2,7 +2,14 @@
 
 Bem-vindo ao site da erva daninha! Este é um outro projeto pessoal que desenvolvi para praticar minhas habilidades em HTML e CSS. 🚀
 
-[<img src="tela.gif" alt="gif da tela inicial do projeto Erva Daninha">]
+
+Desktop
+[<img src="tela.gif" alt="gif da tela inicial desktop do projeto Erva Daninha">]
+
+Mobile
+[<img src="tela.mobile.gif" alt="gif da tela inicial mobile do projeto Erva Daninha">]
+
+
 
 ## Tecnologias utilizadas 🌟
 - HTML
